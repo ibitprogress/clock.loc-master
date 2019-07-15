@@ -1,0 +1,100 @@
+#header {
+  margin-bottom: 2em;
+  border-bottom: red solid 1px;
+  nav{
+    align-items: center;
+  }
+  .navbar-toggler {
+    background-color: $body-bg;
+  }
+  .top-line{
+    background-color: #d4eafd;
+  }
+  .middle-line{
+    background-color: #fff;
+  }
+  .bottom-line{
+    background-color: #ccc;
+  }
+  .phones{
+    .lifecell{
+      background-image: url("/images/lifecell.png");
+    }
+    .kyivstar{
+      background-image: url("/images/kyivstar.png");
+    }
+    .vodafone{
+      background-image: url("/images/vodafone.png");
+    }
+    .phone-icon{
+      background-image: url("/images/phone.svg");
+    }
+    .lifecell, .kyivstar, .vodafone, .phone-icon{
+      background-repeat: no-repeat;
+      height: 24px;
+      padding-left: 32px;
+      margin-top: 2px;
+      margin-bottom: 2px;
+    }
+  }
+  .cart{
+    .cart-info{
+      height: 50px;
+    }
+    .shopping-cart{
+      height: 50px;
+      width: 50px;
+    }
+  }
+}
+
+#headerMin{
+  border-bottom: red solid 1px;
+  margin-top: 0.2em;
+  nav{
+    align-items: center;
+  }
+  .phones{
+    padding-top: 0.5em;
+    p{
+      margin-bottom: 0;
+    }
+    .phones-title{
+      font-family: 'Roboto Mono', monospace;
+    }
+    .schedule-link{
+      font-family: 'Roboto Mono', monospace;
+    }
+  }
+}
+
+.badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+
+.label-warning[href],
+.badge-warning[href] {
+  background-color: #c67605;
+}
+#lblCartCount {
+  font-size: 12px;
+  background: #ff0000;
+  color: #fff;
+  padding: 0 3px;
+  vertical-align: top;
+  margin-left: -10px;
+}
+
+#workSchedule{
+  .work-time{
+    font-size: 3em;
+    font-weight: 400;
+  }
+  .schedule-note{
+    color: #dc3545;
+  }
+}
