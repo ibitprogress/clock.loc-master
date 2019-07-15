@@ -1,0 +1,52 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch --port=3000",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "axios": "^0.18",
+    "bootstrap": "^4.0.0",
+    "browser-sync": "^2.26.3",
+    "browser-sync-webpack-plugin": "^2.0.1",
+    "cross-env": "^5.1",
+    "file-loader": "^1.1.11",
+    "jquery": "^3.2",
+    "laravel-mix": "^4.0.14",
+    "lodash": "^4.17.4",
+    "popper.js": "^1.12",
+    "resolve-url-loader": "^2.3.1",
+    "vue": "^2.5.17"
+  },
+  "name": "clock.loc",
+  "description": "<p align=\"center\"><img src=\"https://laravel.com/assets/img/components/logo-laravel.svg\"></p>",
+  "version": "1.0.0",
+  "main": "webpack.mix.js",
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "author": "cilen.ua",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://Cilen_ua@bitbucket.org/Cilen_ua/clock.loc.git"
+  },
+  "homepage": "https://bitbucket.org/Cilen_ua/clock.loc#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.2.0",
+    "ajv": "^6.5.2",
+    "ckeditor": "^4.11.4",
+    "nouislider": "^12.0.0",
+    "sass": "^1.16.1",
+    "slick-carousel": "^1.8.1",
+    "stf-vue-select": "^0.1.11",
+    "vue-template-compiler": "^2.5.17",
+    "vuex": "^3.0.1"
+  }
+}
